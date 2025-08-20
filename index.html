@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edsel Castillo - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site">
+    <div class="container nav" role="navigation" aria-label="Main">
+      <div class="brand"><span class="dot" aria-hidden="true"></span> <span>Edsel Castillo</span></div>
+      <nav class="navlinks">
+        <a href="#skills">Skills</a>
+        <a href="#languages">Programming Languages</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">Personal Info</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-label="Intro">
+      <div>
+        <h1 class="title">Hi, I'm Edsel Castillo</h1>
+        <p class="subtitle">A <strong>Backend Web Developer</strong> crafting reliable, accessible, and efficient web systems and database design.</p>
+        <div class="cta">
+          <a class="btn" href="#projects" aria-label="View my projects">View Projects</a>
+          <a class="btn secondary" href="#about" aria-label="More about me">About Me</a>
+        </div>
+      </div>
+
+      <aside class="heroCard" aria-label="Portrait">
+        <figure class="portrait">
+          <img alt="Your portrait placeholder" src="img/Screenshot 2025-08-20 at 15-57-18 (4) Instagram.png" />
+        </figure>
+      </aside>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 class="section-title" id="skills-title">Skills</h2>
+      <div class="grid two">
+        <div class="card">
+          <div class="skill"><strong>Backend Design</strong><span>85%</span></div>
+          <div class="meter" aria-label="Frontend Architecture proficiency" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span style="width:85%"></span></div>
+          <div class="skill" style="margin-top:.8rem"><strong>Database Modeling</strong><span>80%</span></div>
+          <div class="meter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span style="width:80%"></span></div>
+          <div class="skill" style="margin-top:.8rem"><strong>Managing Projects</strong><span>75%</span></div>
+          <div class="meter" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span style="width:75%"></span></div>
+        </div>
+        <div class="card">
+          <p style="color:var(--muted)">Also experienced with:</p>
+          <div class="tags" aria-label="Other skills">
+            <span class="tag">Responsive UI</span>
+            <span class="tag">Basic Spring Boot Java</span>
+            <span class="tag">REST & JSON</span>
+            <span class="tag">Git</span>
+            <span class="tag">Intermediate level PHP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMMING LANGUAGES -->
+    <section id="languages" aria-labelledby="lang-title">
+      <h2 class="section-title" id="lang-title">Programming Languages</h2>
+      <div class="grid three">
+        <div class="card">
+          <h3>Java</h3>
+          <p style="color:var(--muted)">Spring Boot, REST APIs, ORM/JPA</p>
+          <div class="meter" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency"><span style="width:90%"></span></div>
+        </div>
+        <div class="card">
+          <h3>SQL</h3>
+          <p style="color:var(--muted)">Schema design, query optimization</p>
+          <div class="meter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="SQL proficiency"><span style="width:80%"></span></div>
+        </div>
+        <div class="card">
+          <h3>PHP</h3>
+          <p style="color:var(--muted)">Backend Development, Web Application</p>
+          <div class="meter" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency"><span style="width:85%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 class="section-title" id="projects-title">Projects</h2>
+      <div class="grid three">
+        <article class="card project">
+          <div class="thumb">
+            <img src="img/Screenshot 2025-08-20 at 15-21-29 Event Attendance.png" alt="Project screenshot placeholder"></div>
+          <div>
+            <h3>Event Management and Attendance Logger and Export</h3>
+            <p style="color:var(--muted)">A platform where you can book a venue at school for your event. Has built-in Attendance Logger by scanning the barcode on your ID. Has an export function of the attendance list</p>
+          </div>
+          <div class="links">
+            <a class="btn" href="http://localhost/IT225_ProjectFinal/">Live</a>
+            <a class="btn secondary" href="#">Source</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="thumb">
+            <img src="img/Screenshot 2025-08-20 at 15-26-42 Display Table.png" alt="Project screenshot placeholder"></div>
+          <div>
+            <h3>Hospital Patient Management</h3>
+            <p style="color:var(--muted)">A system built for managing patients in a hospital.</p>
+          </div>
+          <div class="links">
+            <a class="btn" href="http://localhost/CastilloEdsel_IT225_Laboratory7/">Live</a>
+            <a class="btn secondary" href="#">Source</a>
+          </div>
+        </article>
+
+        <article class="card project">
+            <div class="thumb">
+              <img src="img/Screenshot 2025-08-20 at 15-53-32 Student Record Management System.png" alt="Project screenshot placeholder"></div>
+            <div>
+              <h3>Student Record Management System</h3>
+              <p style="color:var(--muted)">A system built for managing Students in a University.</p>
+            </div>
+            <div class="links">
+              <a class="btn" href="http://localhost/IT223_Activity5/index.php">Live</a>
+              <a class="btn secondary" href="#">Source</a>
+            </div>
+          </article>
+      </div>
+    </section>
+
+    <!-- ===== PERSONAL INFO ===== -->
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div>
+        <h2 class="section-title" id="about-title">Personal Info</h2>
+        <div class="card info">
+          <div class="info-row"><strong>Name</strong><span>Edsel Castillo</span></div>
+          <div class="info-row"><strong>Profession</strong><span>Backend Web Developer</span></div>
+          <div class="info-row"><strong>Location</strong><span>Bulacan, Philippines</span></div>
+          <div class="info-row"><strong>Email</strong><span><a href="mailto:john.doe@example.com">edselcastillo.basc@gmail.com</a></span></div>
+          <div class="info-row"><strong>Phone</strong><span>+63 999-893-7295</span></div>
+        </div>
+      </div>
+      <aside>
+        <h2 class="section-title">Tech Stack (Quick Glance)</h2>
+        <div class="card tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Java</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Git</span>
+          <span class="tag">PHP</span>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="container">
+      <p>© 2025 Edsel Castillo. Built with semantic HTML and modern CSS.</p>
+    </footer>
+  </main>
+
+</body>
+</html>
